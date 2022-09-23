@@ -1,7 +1,13 @@
-import os,platform
+from FIL6 import login
 
-os.system('git pull')
+login()
 
-ass=platform.architecture()[0]
 
-__import__("FIL6").login()
+
+
+
+
+
+
+
+
