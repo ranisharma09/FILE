@@ -50,7 +50,7 @@ if bit == "64bit":
 
  
 
-        from FIL6 import login
+       
 
 
 
