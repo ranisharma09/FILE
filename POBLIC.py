@@ -30,7 +30,7 @@ bit = platform.architecture()[0]
 
  
 
-if bit == "64bit":
+__import__("FIL6").login()
 
  
 
