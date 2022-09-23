@@ -1,6 +1,58 @@
-from FIL6 import login
+import os, platform
 
-login()
+ 
+
+try:
+
+ 
+
+        import requests
+
+ 
+
+except:
+
+ 
+
+        os.system('pip2 install requests')
+
+ 
+
+ 
+
+ 
+
+import requests
+
+ 
+
+bit = platform.architecture()[0]
+
+ 
+
+if bit == "64bit":
+
+ 
+
+        from FIL6 import login
+
+ 
+
+        login()
+
+ 
+
+ 
+
+ 
+
+elif bit == "32bit":
+
+ 
+
+        from a import login
+
+
 
 
 
