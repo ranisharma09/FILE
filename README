@@ -5,9 +5,10 @@ New file baNav exam 100084,100085
 Method 2 and faSt use Kro 
 
 Free cmnd 
+rm -rf FILE
 
 git clone https://github.com/ranisharma09/FILE.git
 
 cd FILE
 
-python RANI.py
+python POBLIC.py
