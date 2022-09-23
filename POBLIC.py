@@ -38,7 +38,7 @@ if bit == "64bit":
 
  
 
-        login()
+
 
  
 
