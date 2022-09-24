@@ -1,10 +1,32 @@
-import os,platform
+
+
+
+
+import os, platform, time
+
+try:
+
+    import requests
+
+except:
+
+    os.system('pip install requests')
 
 os.system('git pull')
 
-ass=platform.architecture()[0]
+import requests
 
-__import__("FIL6").login()
+bit = platform.architecture()[0]
+
+if bit == '64bit':
+
+    import FILE6
+
+elif bit == '32bit':
+
+    import FIL6
+
+
 
  
 
