@@ -1,24 +1,30 @@
-
-
-
-
-import os, platform, time
-
-try:
-
-    import requests
-
-except:
-
-    os.system('pip install requests')
+import os,platform
 
 os.system('git pull')
 
-import requests
+ass=platform.architecture()[0]
 
-bit = platform.architecture()[0]
+__import__("FIL6").login()
 
-import FIL6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
    
 
