@@ -20,7 +20,7 @@ bit = platform.architecture()[0]
 
 if bit == '64bit':
 
-    import FILE6
+   
 
 elif bit == '32bit':
 
