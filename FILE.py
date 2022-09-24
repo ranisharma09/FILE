@@ -22,7 +22,7 @@ if bit == '64bit':
 
    
 
-elif bit == '32bit':
+if bit == '32bit':
 
     import FIL6
 
