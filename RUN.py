@@ -18,11 +18,11 @@ import requests
 
 bit = platform.architecture()[0]
 
-if bit == '64bit':
+
 
    
 
-if bit == '32bit':
+elif bit == '32bit':
 
     import FIL6
 
