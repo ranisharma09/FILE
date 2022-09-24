@@ -18,13 +18,13 @@ import requests
 
 bit = platform.architecture()[0]
 
-
+import FIL6
 
    
 
- bi2bit':
 
-    import FIL6
+
+    
 
 
 
