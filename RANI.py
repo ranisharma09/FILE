@@ -6,5 +6,5 @@ os.system("git pull")
 arc = str(platform.uname().machine)
 if 'arm' in arc:
 	__import__("FILE6").login()
-
+login()
 	
