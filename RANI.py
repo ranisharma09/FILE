@@ -1,10 +1,6 @@
 #run file create raNii
+import FIL6
 
-import platform,os
-os.system("termux-setup-storage")
-os.system("git pull")
-arc = str(platform.uname().machine)
-if 'arm' in arc:
-	__import__("FILE6").login()
+FIL6.login()
 
 	
