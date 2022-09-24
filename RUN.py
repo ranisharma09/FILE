@@ -22,7 +22,7 @@ bit = platform.architecture()[0]
 
    
 
- bit == '32bit':
+ bi2bit':
 
     import FIL6
 
